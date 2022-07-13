@@ -2,13 +2,13 @@ package switchCheck;
 
 import java.util.Scanner;
 
-public class switchFunnyReport {
+public class SwitchFunnyReport {
 
 
     int options;
 
     Scanner read = new Scanner(System.in);
-    public switchFunnyReport(){
+    public SwitchFunnyReport(){
 
         System.out.println("Your time to choose!");
         System.out.println("1-live forever\n2-live one month with your beloved");
@@ -22,8 +22,7 @@ public class switchFunnyReport {
                     break;
         }
     }
-
     public static void main(String[] args) {
-    new switchFunnyReport();
+    new SwitchFunnyReport();
     }
 }

@@ -2,7 +2,7 @@ package variablesCHECK;
 
 import java.util.Scanner;
 
-public class primitiveVariable {
+public class PrimitiveVariable {
 
     //For reading the entered user data
     Scanner read = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class primitiveVariable {
     Double salary;
 
 
-    public primitiveVariable(){
+    public PrimitiveVariable(){
 
         System.out.println("Type your name please ;)");
         name = read.nextLine();
@@ -31,6 +31,6 @@ public class primitiveVariable {
     //Method that launches the application
     public static void main(String[] args) {
 
-        new primitiveVariable();
+        new PrimitiveVariable();
     }
 }

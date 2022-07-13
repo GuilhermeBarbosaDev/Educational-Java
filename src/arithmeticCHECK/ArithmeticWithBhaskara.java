@@ -3,7 +3,7 @@ package arithmeticCHECK;
 import java.util.Scanner;
 
 
-public class arithmeticWithBhaskara {
+public class ArithmeticWithBhaskara {
 
     //For reading the entered user data
     Scanner read = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class arithmeticWithBhaskara {
     int a, b, c;
     double delta, x1, x2;
 
-    public arithmeticWithBhaskara() {
+    public ArithmeticWithBhaskara() {
         deltaCalculation();
     }
 
@@ -48,7 +48,7 @@ public class arithmeticWithBhaskara {
     }
 
     public static void main(String[] args) {
-        new arithmeticWithBhaskara();
+        new ArithmeticWithBhaskara();
     }
 
 }
